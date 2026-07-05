@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './Navbar.css'
 
+
 const navLinks = [
   { label: 'Accueil', href: '#accueil' },
   { label: 'À propos', href: '#apropos' },
@@ -48,9 +49,17 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="container navbar__container">
-        <a href="#accueil" className="navbar__logo" onClick={(e) => handleNavClick(e, '#accueil')}>
-          Ayoub ELHANAFI
-        </a>
+            <a
+     href="#accueil"
+    className="navbar__logo"
+    onClick={(e) => handleNavClick(e, '#accueil')}
+        >
+    <img
+          src={"/nav.png"}
+        alt="Ayoub ELHANAFI"
+      className="navbar__logo-image"
+        />
+</a>
         
         <ul className={`navbar__links ${isOpen ? 'navbar__links--open' : ''}`}>
           {navLinks.map(link => (
