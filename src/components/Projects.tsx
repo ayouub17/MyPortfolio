@@ -24,6 +24,29 @@ const projects: Project[] = [
     sourceUrl: 'https://github.com/ayouub17/QCM-Test-Platform',
   },
   {
+    title: 'RETEX-Based Crisis Management Recommendation System',
+
+    description: 'Système intelligent de recommandation basé sur les retours d’expérience (RETEX) permettant d’analyser une nouvelle crise, d’identifier les cas similaires grâce aux embeddings et à FAISS, puis de proposer des actions et recommandations pertinentes.',
+
+    image: '/project5.jpg',
+
+    tags: ['Python', 'NLP', 'Embeddings', 'FAISS', 'PostgreSQL', 'FastAPI'],
+
+    sourceUrl: 'https://github.com/ayouub17/RETEX-based-crisis-management-recommendation-system',
+  },
+  {
+  title: 'Smart Recruitment Platform',
+
+  description: 'Plateforme de recrutement intelligent permettant d’analyser les CV des candidats, d’identifier leurs compétences, expériences et formations, puis de leur recommander les offres d’emploi les plus pertinentes.',
+
+  image: '/project6.jpg',
+
+  tags: ['Spring Boot','React', 'TypeScript', 'PostgreSQL', 'Python', 'NLP', 'Recommendation System'],
+
+  sourceUrl: 'https://github.com/ayouub17/smart-recruitment-platform',
+
+},
+  {
     title: 'Shell Scripting Projects',
     description: 'Collection de scripts Shell automatisant des tâches système telles que la gestion de fichiers, l\'administration Linux et l\'exécution de processus.',
     image: '/project3.png',
