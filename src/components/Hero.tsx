@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
         <div className="hero__image-wrapper animate-slide-right">
           <div className="hero__image-frame">
-            <img src="/profile.png" alt="Ayoub ELHANAFI" className="hero__image" />
+            <img src="/profile.jpeg" alt="Ayoub ELHANAFI" className="hero__image" />
           </div>
           <div className="hero__badge">
             <span className="hero__badge-title">Disponible pour</span>

@@ -17,7 +17,7 @@ const About = () => {
         <div className="about__content">
           <div className="about__image-wrapper animate-slide-left">
             <div className="about__image-frame">
-              <img src="/profile.png" alt="Ayoub ELHANAFI" className="about__image" />
+              <img src="/profile.jpeg" alt="Ayoub ELHANAFI" className="about__image" />
             </div>
           </div>
 
