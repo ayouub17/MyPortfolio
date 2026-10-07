@@ -7,9 +7,8 @@ const Hero = () => {
         <div className="hero__content animate-slide-left">
           <h1 className="hero__name">Ayoub ELHANAFI</h1>
           <p className="hero__description">
-            Ingénieur Data & Software focalisé sur la création d'applications intelligentes,
-            scalables et orientées données. Je combine le génie logiciel, les systèmes
-            de données et l'apprentissage automatique.
+            Ingénieur Data & Software spécialisé dans la conception de pipelines de données scalables et fiables.
+            Je combine Data Engineering, systèmes distribués et développement logiciel pour construire des solutions data performantes.
           </p>
           <div className="hero__actions">
             <a href="#projets" className="btn-primary">
@@ -31,7 +30,7 @@ const Hero = () => {
           </div>
           <div className="hero__badge">
             <span className="hero__badge-title">Disponible pour</span>
-            <span className="hero__badge-text">PFA / PFE / Freelance</span>
+            <span className="hero__badge-text">PFE / Freelance</span>
           </div>
         </div>
       </div>
