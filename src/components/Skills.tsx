@@ -13,11 +13,11 @@ const skillCategories: SkillCategory[] = [
   },
   {
     title: 'Développement Frontend',
-    skills: ['JavaScript', 'React', 'Next.js', 'TypeScript', 'HTML5/CSS3', 'Bootstrap'],
+    skills: ['JavaScript', 'React', 'Next.js', 'TypeScript', 'HTML5/CSS3', 'angular'],
   },
   {
     title: 'Base de données',
-    skills: ['PostgreSQL', 'MySQL', 'Oracle', 'MongoDB'],
+    skills: ['PostgreSQL', 'MySQL', 'Oracle','SQLite'],
   },
   {
     title: 'Data & IA',
@@ -25,8 +25,12 @@ const skillCategories: SkillCategory[] = [
   },
   {
     title: 'DevOps & Cloud',
-    skills: ['Docker', 'Git', 'GitHub Actions', 'AWS', 'Linux'],
+    skills: ['Docker', 'Git', 'GitHub Actions', 'Linux', 'CI/CD'],
   },
+ {
+    title: 'Data Engineering',
+    skills: ['SQL', 'ETL / ELT', 'Data Warehousing', 'Data Pipelines','Big Data'],
+  } 
 ]
 
 const Skills = () => {
